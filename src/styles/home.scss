@@ -1,0 +1,29 @@
+.wrapper{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    .user_version{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+        .userlist{
+            width: 50%;
+        }
+        .version{
+            width: 50%;
+        }
+        .form-select{
+            width: 100%;
+        }
+        
+    }
+    .contentgroup{
+            height: 400px;
+    }
+    .h4{
+        margin:10px 0;
+    }
+    
+}

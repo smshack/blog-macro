@@ -1,6 +1,10 @@
 .login_wrapper{
     background-color:#f5f6f7;
-    margin: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     .form-group{
         input{
             line-height: normal;

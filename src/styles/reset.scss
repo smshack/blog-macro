@@ -435,7 +435,13 @@
  th {
    padding: 0;
  }
-
+.App{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
  ul, li {list-style-type: none;}
 
 
@@ -446,5 +452,4 @@
  * Color
  */
 
- $primary-color: #1dc078;
- $primary-color-hover: #189e63;
+ 
